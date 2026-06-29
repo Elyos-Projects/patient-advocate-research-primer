@@ -1,0 +1,34 @@
+{
+  "id": "patient-advocate-research-primer-licence-001",
+  "title": "Source-register schema + per-source licence/provenance model",
+  "project": "patient-advocate-research-primer",
+  "type": "design-spec",
+  "lane": "donated",
+  "priority": "high",
+  "domain": ["cancer", "research-literacy", "open-access", "licensing", "provenance"],
+  "riskTier": "low",
+  "urgent": false,
+  "deliverable": "document",
+  "tokenEstimate": "small",
+  "status": "open",
+  "context": "Patient-Advocate-Research-Primer teaches cancer patient advocates to read research as education, not medical advice. Per Elyos cancer guardrails it may reuse ONLY open-access / aggregate / de-identified sources, each with a verified licence, and must carry provenance on every assertion. Before any content is authored, the project needs a machine-readable source register that records each source's licence and the uses it permits, so the CI licence gate (task 004) can enforce it.",
+  "objective": "Design the source-register schema and per-source licence/provenance model that every reused paper, guideline, or statistic must have an entry in before content may cite it.",
+  "acceptanceCriteria": [
+    "Defines a sources.yaml schema with fields: id, citation, doiOrUrl, accessType (oa|authoritative|aggregate), licence, licenceVerifiedDate, verifiedBy, allowedUse (link|quote|adapt|reproduce).",
+    "Specifies that controlled-access and identifiable patient data are out of scope and MUST NOT appear in the register.",
+    "Documents the conservative default: non-commercial / no-derivatives sources get allowedUse 'link' or 'quote' only, never 'adapt'/'reproduce'.",
+    "Provides a worked example entry for one open-access (CC-BY) oncology paper and one authoritative guideline (EQUATOR/Cochrane).",
+    "Specifies a scheduled re-verification cadence and the licence steward as owner.",
+    "Is consumable by the CI licence + provenance gate (task 004) without further interpretation."
+  ],
+  "resources": [
+    "PLAN.md (Data, licensing & compliance section)",
+    "https://www.ncbi.nlm.nih.gov/pmc/tools/openftlist/ (PMC Open Access Subset + licence metadata)",
+    "https://www.equator-network.org/ (reporting guidelines, cited as authority)",
+    "packages/schema/src/schemas.ts (Elyos task schema conventions)"
+  ],
+  "output": "A design-spec document defining sources.yaml schema, the per-source licence/provenance model, allowed-use rules, worked example entries, and re-verification cadence — committed to the repo as the basis for the CI licence gate.",
+  "requestor": "TO BE SECURED",
+  "verifiedNeed": false,
+  "outputLicense": "CC-BY-4.0"
+}
