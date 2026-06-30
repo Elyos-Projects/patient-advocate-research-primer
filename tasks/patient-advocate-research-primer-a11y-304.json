@@ -1,0 +1,34 @@
+{
+  "id": "patient-advocate-research-primer-a11y-304",
+  "title": "Accessibility + readability audit (automated + manual)",
+  "project": "patient-advocate-research-primer",
+  "type": "maintenance",
+  "lane": "donated",
+  "priority": "medium",
+  "domain": ["cancer", "research-literacy", "education", "accessibility", "quality-assurance"],
+  "riskTier": "low",
+  "urgent": false,
+  "deliverable": "document",
+  "tokenEstimate": "small",
+  "status": "open",
+  "context": "After the static site (task 301) is deployed, a formal accessibility and readability audit is required to confirm WCAG 2.1 AA compliance and that the plain-language targets are met for a lay audience. This includes automated tooling (axe-core, Pa11y) and a manual spot-check of keyboard navigation and screen-reader experience, plus readability scoring against the target reading level.",
+  "objective": "Conduct an automated and manual accessibility audit of the static site and a readability audit of all patient-facing content, documenting findings and confirming WCAG 2.1 AA and plain-language targets are met.",
+  "acceptanceCriteria": [
+    "Automated accessibility audit (axe-core or Pa11y) run against all key pages; zero WCAG 2.1 Level A or AA critical violations remain unresolved.",
+    "Manual keyboard-navigation check: all interactive elements reachable and operable by keyboard alone; tab order is logical.",
+    "Screen-reader spot-check (NVDA/VoiceOver or equivalent) on at least the home page, one module, and one worksheet: no major comprehension failures.",
+    "Readability scoring (Flesch-Kincaid or equivalent) of all patient-facing modules and worksheets documented; any content scoring above the target reading level identified and flagged for revision.",
+    "Audit findings documented in a report committed to the repo (e.g. governance/a11y-audit.md), distinguishing open issues from confirmed-compliant items.",
+    "Maintainer review sign-off recorded."
+  ],
+  "resources": [
+    "PLAN.md (§ Success metrics — Metric 8)",
+    "TASKS.md (Milestone M3)",
+    "https://www.w3.org/TR/WCAG21/ (WCAG 2.1 AA standard)",
+    "tasks/patient-advocate-research-primer-site-301.json"
+  ],
+  "output": "An accessibility + readability audit report (governance/a11y-audit.md) committed to the repo, documenting all findings from automated and manual checks, with open issues flagged and WCAG 2.1 AA conformance confirmed.",
+  "requestor": "TO BE SECURED",
+  "verifiedNeed": false,
+  "outputLicense": "CC-BY-4.0"
+}

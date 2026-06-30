@@ -1,0 +1,35 @@
+{
+  "id": "patient-advocate-research-primer-module-501",
+  "title": "Module: reading a trial registry record / protocol",
+  "project": "patient-advocate-research-primer",
+  "type": "writing",
+  "lane": "donated",
+  "priority": "low",
+  "domain": ["cancer", "research-literacy", "education", "health", "clinical-trials", "registry"],
+  "riskTier": "high",
+  "urgent": false,
+  "deliverable": "document",
+  "tokenEstimate": "medium",
+  "status": "open",
+  "context": "Patient advocates on trial steering committees and ethics boards frequently need to read ClinicalTrials.gov records and protocols. This module teaches them how a registry record is structured, what each field means, and what to look for — explicitly scoped to understanding structure, not to recommending or selecting trials. It extends the M1 curriculum and is itself patient-facing high-risk content.",
+  "objective": "Author an original, plain-language educational module on how to read a clinical-trial registry record (e.g. ClinicalTrials.gov entry) and a protocol document — teaching structure and field meaning, not trial selection or recommendation.",
+  "acceptanceCriteria": [
+    "Covers key fields of a ClinicalTrials.gov record: NCT number, trial phase, status, sponsor, primary/secondary endpoints, eligibility criteria, arms and interventions, primary completion date, and results section when available.",
+    "Explains what each field means for appraisal and advocacy (e.g. eligibility criteria determine who a result applies to; primary endpoint determines what the trial is powered to show).",
+    "Explicitly scoped: teaches how to understand a registry record's structure; does not recommend or assess whether a specific trial is appropriate for any individual — that is explicitly out of scope and flagged as such.",
+    "Carries a persistent 'education only — not medical advice' notice and passes the advice-language checklist.",
+    "Every factual claim cited to a sources.yaml entry with compatible allowedUse; passes the licence + provenance build gate and CI.",
+    "Signed off by a credentialed oncologist (recorded in the review ledger): clinical framing is correct and nothing reads as trial-selection guidance.",
+    "Signed off by an experienced patient advocate (recorded in the review ledger): content is accessible and does not stray into advice.",
+    "Signed off by a methodology reviewer: registry record interpretation is accurate."
+  ],
+  "resources": [
+    "PLAN.md (§ Non-goals — not a trial finder; § Goals — Goal 1)",
+    "TASKS.md (Backlog / future)",
+    "https://clinicaltrials.gov/ct2/about-studies/learn (ClinicalTrials.gov study structure documentation)"
+  ],
+  "output": "A plain-language educational module (content/modules/reading-registry-records.md) committed to the repo, teaching registry record structure and field meaning, provenance-cited, CI-green, and carrying dual high-tier sign-off plus methodology review.",
+  "requestor": "TO BE SECURED",
+  "verifiedNeed": false,
+  "outputLicense": "CC-BY-4.0"
+}

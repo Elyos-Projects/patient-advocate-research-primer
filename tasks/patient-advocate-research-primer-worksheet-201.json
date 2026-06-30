@@ -1,0 +1,38 @@
+{
+  "id": "patient-advocate-research-primer-worksheet-201",
+  "title": "Worksheet: early-phase / single-arm studies",
+  "project": "patient-advocate-research-primer",
+  "type": "writing",
+  "lane": "donated",
+  "priority": "medium",
+  "domain": ["cancer", "research-literacy", "education", "health", "appraisal", "clinical-trials"],
+  "riskTier": "high",
+  "urgent": false,
+  "deliverable": "document",
+  "tokenEstimate": "medium",
+  "status": "open",
+  "context": "Single-arm and early-phase studies are frequently the source of advocacy hype: a response rate in a phase-I dose-expansion cohort is often reported as if it were comparative phase-III evidence. The RCT worksheet (task 007) is not appropriate for these designs. An original early-phase / single-arm appraisal worksheet gives advocates a structured way to interrogate what these studies can and cannot show, without copying licence-incompatible checklists.",
+  "objective": "Author an original, CC-BY-licensed critical-appraisal worksheet for early-phase (phase I/II) and single-arm studies — authored from first principles, covering design, endpoints, response-rate interpretation, and the limits of inference — without copying or adapting any non-commercial or share-alike checklist.",
+  "acceptanceCriteria": [
+    "Authored from methodological first principles; cites EQUATOR/CONSORT reporting extensions, Cochrane, and relevant FDA guidance as conceptual authority without reproducing copyrighted checklist text; passes the licence gate clean.",
+    "Covers: study design (dose-escalation, expansion cohort, single-arm phase II); primary endpoint (DLT, MTD, ORR); absence of a comparator and what that means for interpreting response rates; attrition and follow-up; patient population (eligibility criteria and generalisability); safety reporting; conflict of interest and funding.",
+    "Includes a 'what this study can and cannot show' summary section guiding advocates not to over-interpret single-arm results as comparative evidence.",
+    "Written in plain language; questions guide appraisal, not verdicts.",
+    "Printable and usable offline; clean Markdown renderable to PDF.",
+    "Carries a persistent 'education only — not medical advice' notice.",
+    "Every methodological concept cited to sources.yaml with compatible allowedUse; passes the licence + provenance build gate and CI.",
+    "Signed off by a credentialed oncologist (recorded in the review ledger): clinical framing is correct and nothing reads as treatment guidance.",
+    "Signed off by an experienced patient advocate (recorded in the review ledger): worksheet is usable and does not stray into advice.",
+    "Signed off by a methodology reviewer: appraisal questions are methodologically accurate for single-arm designs."
+  ],
+  "resources": [
+    "PLAN.md (§ Scope — original critical-appraisal worksheets)",
+    "TASKS.md (Milestone M2)",
+    "https://www.equator-network.org/reporting-guidelines/consort/ (CONSORT extensions for non-randomised studies)",
+    "tasks/patient-advocate-research-primer-worksheet-007.json"
+  ],
+  "output": "An original early-phase / single-arm critical-appraisal worksheet (content/worksheets/early-phase-appraisal.md) committed under CC-BY-4.0, provenance-cited, CI-green, and carrying dual high-tier sign-off plus methodology review.",
+  "requestor": "TO BE SECURED",
+  "verifiedNeed": false,
+  "outputLicense": "CC-BY-4.0"
+}

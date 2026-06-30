@@ -1,0 +1,35 @@
+{
+  "id": "patient-advocate-research-primer-pilot-401",
+  "title": "Pilot with >= 1 advocacy org + measure outcome metrics 1-3",
+  "project": "patient-advocate-research-primer",
+  "type": "research",
+  "lane": "donated",
+  "priority": "low",
+  "domain": ["cancer", "research-literacy", "education", "health", "patient-advocacy", "evaluation"],
+  "riskTier": "medium",
+  "urgent": false,
+  "deliverable": "document",
+  "tokenEstimate": "medium",
+  "status": "open",
+  "context": "M4 is hard-gated on a secured advocacy partner. Once a partner is secured and confirms the need (flipping verifiedNeed to true), the pilot delivers the complete M3 curriculum to at least one cohort of advocates at the partner organisation and measures the three primary outcome metrics: appraisal skill gain (>= 25-point median gain), self-rated confidence gain (>= +2 on 5-pt scale), and real-world application (>= 60% report using a worksheet within 8 weeks).",
+  "objective": "Run a pilot of the full curriculum with at least one secured advocacy organisation, administering the pre/post evaluation instrument (task 303) and measuring outcome metrics 1-3 from PLAN.md.",
+  "acceptanceCriteria": [
+    "A specific advocacy organisation has been secured as partner and has confirmed the need (verifiedNeed updated to true before this task begins).",
+    "At least one cohort of advocates at the partner organisation completes the full curriculum (all M1/M2 modules and worksheets) during the pilot.",
+    "Pre/post evaluation instrument (task 303) administered: pre-test before the curriculum and post-test immediately after; both scored using the blinded rubric.",
+    "Outcome metric 1 measured and reported: median pre/post appraisal-skill gain on the 100-pt rubric (target: >= 25-point improvement).",
+    "Outcome metric 2 measured and reported: median pre/post confidence-survey gain (target: >= +2 on 5-pt scale).",
+    "Outcome metric 3 initiated: 8-week follow-up survey deployed to pilot cohort to measure real-world worksheet application (target: >= 60% report using a worksheet on an actual review).",
+    "Pilot findings (including any content issues, usability problems, or feedback from advocates) documented for task 402.",
+    "Maintainer + Steward + Advocate review sign-off recorded."
+  ],
+  "resources": [
+    "PLAN.md (§ Success metrics — Metrics 1-3; § Roadmap — M4)",
+    "TASKS.md (Milestone M4 — blocked until partner secured)",
+    "tasks/patient-advocate-research-primer-eval-303.json"
+  ],
+  "output": "A pilot findings report (governance/pilot-findings.md) committed to the repo, documenting the cohort, pre/post scores for metrics 1-2, metric 3 follow-up deployment, and qualitative feedback from the pilot.",
+  "requestor": "TO BE SECURED",
+  "verifiedNeed": false,
+  "outputLicense": "CC-BY-4.0"
+}

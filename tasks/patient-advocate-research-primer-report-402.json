@@ -1,0 +1,33 @@
+{
+  "id": "patient-advocate-research-primer-report-402",
+  "title": "Publish pilot findings + corrections incorporated",
+  "project": "patient-advocate-research-primer",
+  "type": "writing",
+  "lane": "donated",
+  "priority": "low",
+  "domain": ["cancer", "research-literacy", "education", "health", "evaluation", "patient-advocacy"],
+  "riskTier": "medium",
+  "urgent": false,
+  "deliverable": "document",
+  "tokenEstimate": "medium",
+  "status": "open",
+  "context": "After the pilot (task 401), the findings — including outcome metrics, qualitative feedback, and any content issues identified — must be written up, published openly, and used to drive corrections to the curriculum. Publishing the findings honestly, including any failures to meet targets, is part of the project's commitment to transparency and outcome-based accountability.",
+  "objective": "Write up and publicly publish the pilot findings report, incorporating corrections to the curriculum based on pilot feedback, and documenting metric 3 results once the 8-week follow-up is complete.",
+  "acceptanceCriteria": [
+    "Pilot findings report published openly (committed to the repo and linked from the site) covering: pilot cohort description, outcome metric 1 and 2 results (with pre/post scores), qualitative feedback themes, and content or usability issues identified.",
+    "Outcome metric 3 (8-week follow-up real-world application) results incorporated once the follow-up period closes.",
+    "Any corrections to curriculum content identified during the pilot are addressed in PRs, re-reviewed by the relevant high-tier sign-off holders (oncologist + advocate) where content changes are patient-facing, and documented as corrections in the review ledger.",
+    "Report is honest about results that fell short of targets and includes a discussion of what would be changed for a subsequent cohort.",
+    "Report carries a CC-BY-4.0 licence and 'not medical advice' notice.",
+    "Maintainer + Methodology review sign-off recorded."
+  ],
+  "resources": [
+    "PLAN.md (§ Success metrics; § Sustainability & maintenance)",
+    "TASKS.md (Milestone M4)",
+    "tasks/patient-advocate-research-primer-pilot-401.json"
+  ],
+  "output": "A published pilot findings report (governance/pilot-report.md or equivalent) committed to the repo, covering all three outcome metrics, qualitative findings, and corrections made to the curriculum, carrying CC-BY-4.0 licence.",
+  "requestor": "TO BE SECURED",
+  "verifiedNeed": false,
+  "outputLicense": "CC-BY-4.0"
+}

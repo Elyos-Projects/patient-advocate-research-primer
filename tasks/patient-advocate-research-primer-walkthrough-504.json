@@ -1,0 +1,37 @@
+{
+  "id": "patient-advocate-research-primer-walkthrough-504",
+  "title": "Disease-specific walkthrough set (e.g. align with Ewing track)",
+  "project": "patient-advocate-research-primer",
+  "type": "writing",
+  "lane": "donated",
+  "priority": "low",
+  "domain": ["cancer", "research-literacy", "education", "health", "appraisal", "oncology"],
+  "riskTier": "high",
+  "urgent": false,
+  "deliverable": "document",
+  "tokenEstimate": "large",
+  "status": "open",
+  "context": "The general walkthroughs in M0/M2 use papers selected for methodological diversity. A disease-specific set would use papers from a single disease area (e.g. Ewing sarcoma, to align with the Elyos Ewing track), giving advocates whose organisations focus on that cancer a more directly relevant set of worked examples. The disease scope is an open question (PLAN.md Open Q5) and this task is unscheduled pending a scope decision and confirmed advocacy partner with that disease focus.",
+  "objective": "Author a set of annotated walkthroughs using licence-verified, fully open-access papers from a specific oncology disease area (disease TBD pending scope decision), applying the matching worksheets inline and obtaining dual high-tier sign-off for each walkthrough.",
+  "acceptanceCriteria": [
+    "Disease scope decision (PLAN.md Open Q5) is resolved and the target disease area is confirmed by the maintainer before authoring begins.",
+    "At least three walkthroughs using licence-verified, fully open-access papers (CC0, CC-BY, or CC-BY-SA) from the confirmed disease area, each recorded in data/sources.yaml with PMCID, DOI, licence, licenceVerifiedDate, and verifiedBy.",
+    "Each walkthrough covers a different study type (e.g. RCT, observational, systematic review) to span methodological diversity within the disease context.",
+    "Each walkthrough applies the matching worksheet inline and renders no verdicts on findings or treatments.",
+    "Carries a persistent 'education only — not medical advice' notice; passes the advice-language checklist.",
+    "Any reviewer with a material COI on a paper used recuses from that walkthrough's sign-off.",
+    "Passes the licence + provenance build gate and CI.",
+    "Each walkthrough signed off by a credentialed oncologist with relevant disease expertise (recorded in the review ledger).",
+    "Each walkthrough signed off by an experienced patient advocate familiar with the disease community (recorded in the review ledger).",
+    "Each walkthrough signed off by a methodology reviewer."
+  ],
+  "resources": [
+    "PLAN.md (§ Open questions — Q5 disease scope; § Dependencies — PMC OA Subset)",
+    "TASKS.md (Backlog / future — depends on disease-scope decision Q5)",
+    "https://www.ncbi.nlm.nih.gov/pmc/tools/openftlist/ (PMC OA Subset)"
+  ],
+  "output": "A set of disease-specific annotated walkthrough documents (content/walkthroughs/disease-specific/) committed to the repo, with sources.yaml entries for all papers, CI-green, and carrying dual high-tier sign-off plus methodology review for each walkthrough.",
+  "requestor": "TO BE SECURED",
+  "verifiedNeed": false,
+  "outputLicense": "CC-BY-4.0"
+}

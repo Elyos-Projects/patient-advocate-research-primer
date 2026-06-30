@@ -1,0 +1,39 @@
+{
+  "id": "patient-advocate-research-primer-walkthrough-206",
+  "title": ">= 3 annotated walkthroughs across study types (licence-verified OA)",
+  "project": "patient-advocate-research-primer",
+  "type": "writing",
+  "lane": "donated",
+  "priority": "medium",
+  "domain": ["cancer", "research-literacy", "education", "health", "appraisal", "oncology"],
+  "riskTier": "high",
+  "urgent": false,
+  "deliverable": "document",
+  "tokenEstimate": "large",
+  "status": "open",
+  "context": "The M2 toolkit is made concrete by annotated walkthroughs across different study types. Three or more walkthroughs are required, each using a distinct, licence-verified, fully open-access oncology paper and applying the matching worksheet inline. Each paper must be individually verified for a reuse-permitting licence before authoring begins. Reviewers with a COI on a specific paper must recuse from that walkthrough.",
+  "objective": "Author three or more annotated walkthroughs of distinct licence-verified, fully open-access oncology papers — one per study type (observational, early-phase/single-arm, systematic review, or additional RCT) — each applying the matching worksheet inline and obtaining dual high-tier sign-off.",
+  "acceptanceCriteria": [
+    "At least three walkthroughs, each using a distinct oncology paper with a verified reuse-permitting licence (CC0, CC-BY, or CC-BY-SA) recorded in data/sources.yaml with PMCID, DOI, licence, licenceVerifiedDate, and verifiedBy before authoring begins.",
+    "Walkthroughs span at least three distinct study types: at minimum one observational/cohort study, one early-phase or single-arm study, and one systematic review or meta-analysis (in addition to the RCT walkthrough from task 008).",
+    "Each walkthrough applies the matching worksheet (RCT worksheet 007, early-phase worksheet 201, observational worksheet 202, or SR/MA worksheet 203) inline, addressing each worksheet question with appraisal commentary on the specific paper.",
+    "Figures reproduced only if the paper's specific licence explicitly permits reproduction; otherwise linked by PMCID/figure number.",
+    "Renders no verdicts on the papers' findings or on the drugs/treatments studied; framing is purely methodological.",
+    "Carries a persistent 'education only — not medical advice' notice; passes the advice-language checklist (task 002).",
+    "Any reviewer with a material conflict of interest on a specific paper recuses from that paper's sign-off, with the recusal recorded in the review ledger.",
+    "Passes the licence + provenance build gate and CI for all three walkthroughs.",
+    "Each walkthrough is signed off by a credentialed oncologist (recorded in the review ledger): clinical framing correct, nothing reads as treatment guidance.",
+    "Each walkthrough is signed off by an experienced patient advocate (recorded in the review ledger): clear, accessible, does not stray into advice.",
+    "Each walkthrough is signed off by a methodology reviewer: appraisal commentary is methodologically accurate for the given study type."
+  ],
+  "resources": [
+    "PLAN.md (§ Scope — annotated walkthroughs; § Data, licensing & compliance — Source classes)",
+    "TASKS.md (M2 acceptance criteria for walkthrough-206)",
+    "https://www.ncbi.nlm.nih.gov/pmc/tools/openftlist/ (PMC OA Subset — licence-verified papers)",
+    "tasks/patient-advocate-research-primer-walkthrough-008.json"
+  ],
+  "output": "Three or more annotated walkthrough documents (content/walkthroughs/) committed to the repo, each covering a distinct study type with worksheet inline, sources.yaml entries for all papers, CI-green, and carrying dual high-tier sign-off plus methodology review for each walkthrough.",
+  "requestor": "TO BE SECURED",
+  "verifiedNeed": false,
+  "outputLicense": "CC-BY-4.0"
+}

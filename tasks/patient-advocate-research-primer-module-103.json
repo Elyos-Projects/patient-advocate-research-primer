@@ -1,0 +1,38 @@
+{
+  "id": "patient-advocate-research-primer-module-103",
+  "title": "Module: endpoints - OS vs PFS vs ORR vs surrogate/biomarker",
+  "project": "patient-advocate-research-primer",
+  "type": "writing",
+  "lane": "donated",
+  "priority": "high",
+  "domain": ["cancer", "research-literacy", "education", "health", "endpoints", "oncology"],
+  "riskTier": "high",
+  "urgent": false,
+  "deliverable": "document",
+  "tokenEstimate": "medium",
+  "status": "open",
+  "context": "One of the most consequential advocacy skills is understanding that 'the trial showed a benefit' depends entirely on what was measured. Overall survival (OS), progression-free survival (PFS), objective response rate (ORR), and surrogate or biomarker endpoints have fundamentally different relationships to patient well-being. A surrogate gain does not necessarily mean living longer or better. This module is cited in TASKS.md as a key M1 item with specific acceptance criteria around the surrogate-endpoint distinction and FDA/EMA guidance.",
+  "objective": "Author an original, plain-language educational module distinguishing overall survival, progression-free survival, objective response rate, and surrogate/biomarker endpoints — explaining what each measures, how they relate to patient experience, and why a surrogate gain may not translate to longer or better life.",
+  "acceptanceCriteria": [
+    "Distinguishes overall survival (OS), progression-free survival (PFS), objective response rate (ORR), and surrogate/biomarker endpoints with clear plain-language definitions and the patient-experience relevance of each.",
+    "Explains why a gain in a surrogate endpoint (e.g. PFS, ORR, or a biomarker) may not translate to longer or better overall survival, with the FDA/EMA accelerated-approval surrogate framework cited as authority.",
+    "Addresses the correlation-but-not-causation problem for surrogates: validated surrogate does not mean proven OS benefit.",
+    "Cites FDA oncology endpoint guidance and EMA equivalents; all citations resolve to sources.yaml entries with compatible allowedUse.",
+    "Written in plain language; no unexplained jargon without a glossary anchor.",
+    "Carries a persistent 'education only — not medical advice' notice and passes the advice-language checklist (task 002).",
+    "Passes the licence + provenance build gate and CI.",
+    "Signed off by a credentialed oncologist (recorded in the review ledger): endpoint distinctions and surrogate discussion are clinically accurate and nothing reads as treatment guidance.",
+    "Signed off by an experienced patient advocate (recorded in the review ledger): content is accessible and does not stray into advice.",
+    "Signed off by a methodology reviewer: endpoint definitions and surrogate-correlation discussion are methodologically accurate."
+  ],
+  "resources": [
+    "PLAN.md (§ Goals — Goal 2; § Dependencies — FDA/EMA endpoint guidance)",
+    "TASKS.md (M1 acceptance criteria for module-103)",
+    "https://www.fda.gov/drugs/development-resources/surrogate-endpoint-resources-drug-and-biologic-development (FDA surrogate endpoint guidance)",
+    "https://www.ema.europa.eu/en/human-regulatory-overview/research-development/scientific-guidelines/clinical-efficacy-safety-guidelines (EMA clinical endpoint guidelines)"
+  ],
+  "output": "A plain-language educational module (content/modules/endpoints.md) committed to the repo, covering OS vs PFS vs ORR vs surrogate endpoints, provenance-cited, CI-green, and carrying dual high-tier sign-off plus methodology review.",
+  "requestor": "TO BE SECURED",
+  "verifiedNeed": false,
+  "outputLicense": "CC-BY-4.0"
+}

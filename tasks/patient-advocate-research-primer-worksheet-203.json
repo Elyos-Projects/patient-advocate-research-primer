@@ -1,0 +1,38 @@
+{
+  "id": "patient-advocate-research-primer-worksheet-203",
+  "title": "Worksheet: systematic reviews & meta-analyses",
+  "project": "patient-advocate-research-primer",
+  "type": "writing",
+  "lane": "donated",
+  "priority": "medium",
+  "domain": ["cancer", "research-literacy", "education", "health", "appraisal", "systematic-review"],
+  "riskTier": "high",
+  "urgent": false,
+  "deliverable": "document",
+  "tokenEstimate": "medium",
+  "status": "open",
+  "context": "Systematic reviews and meta-analyses are at the top of the evidence hierarchy, but a poorly conducted synthesis can be worse than a good individual trial. Patient advocates on grant review panels and advisory boards frequently encounter systematic reviews without knowing how to appraise the synthesis methodology. AMSTAR and AMSTAR-2 are licence-restricted; this worksheet must be authored from first principles.",
+  "objective": "Author an original, CC-BY-licensed critical-appraisal worksheet for systematic reviews and meta-analyses, covering search methodology, inclusion criteria, heterogeneity, and publication bias — authored from first principles without copying any non-commercial or share-alike checklist.",
+  "acceptanceCriteria": [
+    "Authored from methodological first principles; cites Cochrane Handbook, GRADE, and PRISMA reporting guidance as conceptual authority without reproducing copyrighted checklist text (AMSTAR/AMSTAR-2 not copied or adapted); passes the licence gate clean.",
+    "Covers: pre-registration and protocol; search strategy comprehensiveness; inclusion/exclusion criteria and their application; risk-of-bias assessment of primary studies; statistical pooling (meta-analysis) and when it is appropriate; heterogeneity (I-squared, sources, clinical vs statistical heterogeneity); publication bias (funnel plots, Egger's test); sensitivity analyses; GRADE rating of the evidence body; conflict of interest and funding of the review.",
+    "Includes a note on when a meta-analysis can be misleading: combining heterogeneous studies, selective reporting, or pooling studies of varying quality.",
+    "Written in plain language; questions guide appraisal, not verdicts.",
+    "Printable and usable offline; clean Markdown renderable to PDF.",
+    "Carries a persistent 'education only — not medical advice' notice.",
+    "Every methodological concept cited to sources.yaml with compatible allowedUse; passes the licence + provenance build gate and CI.",
+    "Signed off by a credentialed oncologist (recorded in the review ledger): clinical framing is correct and nothing reads as treatment guidance.",
+    "Signed off by an experienced patient advocate (recorded in the review ledger): worksheet is usable and does not stray into advice.",
+    "Signed off by a methodology reviewer: synthesis methodology and meta-analysis questions are accurate."
+  ],
+  "resources": [
+    "PLAN.md (§ Scope — original critical-appraisal worksheets)",
+    "TASKS.md (Milestone M2)",
+    "https://training.cochrane.org/handbook (Cochrane Handbook — SR/MA methodology authority)",
+    "https://www.equator-network.org/reporting-guidelines/prisma/ (PRISMA — cited as reporting authority, not reproduced)"
+  ],
+  "output": "An original systematic-review / meta-analysis critical-appraisal worksheet (content/worksheets/systematic-review-appraisal.md) committed under CC-BY-4.0, provenance-cited, CI-green, and carrying dual high-tier sign-off plus methodology review.",
+  "requestor": "TO BE SECURED",
+  "verifiedNeed": false,
+  "outputLicense": "CC-BY-4.0"
+}

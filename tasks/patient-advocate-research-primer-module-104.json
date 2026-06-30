@@ -1,0 +1,40 @@
+{
+  "id": "patient-advocate-research-primer-module-104",
+  "title": "Module: statistics for appraisal - HR, CI, absolute vs relative risk, NNT, p-values & misuse",
+  "project": "patient-advocate-research-primer",
+  "type": "writing",
+  "lane": "donated",
+  "priority": "high",
+  "domain": ["cancer", "research-literacy", "education", "health", "statistics", "biostatistics"],
+  "riskTier": "high",
+  "urgent": false,
+  "deliverable": "document",
+  "tokenEstimate": "large",
+  "status": "open",
+  "context": "Statistical literacy is the deepest gap for most patient advocates. Misreading a hazard ratio, confusing absolute and relative risk, or interpreting a p-value as proof of clinical significance are common errors with real advocacy consequences. This is the most technically demanding module in M1, sized 'large'. All worked examples must use only licence-cleared aggregate figures. TASKS.md provides specific acceptance criteria for this module.",
+  "objective": "Author an original, plain-language educational module on statistics for critical appraisal — covering hazard ratio, confidence interval, absolute vs relative risk framing, number needed to treat, and p-value interpretation and misuse — with every claim cited to authoritative methods sources and dual high-tier sign-off obtained.",
+  "acceptanceCriteria": [
+    "Explains hazard ratio: what it measures, how to read a value above/below 1, what the confidence interval around it means, and why a statistically significant HR may or may not be clinically meaningful.",
+    "Explains absolute risk reduction vs relative risk reduction: demonstrates with a worked mini-example (using licence-cleared aggregate figures only) how the same data can yield very different impressions depending on framing.",
+    "Explains number needed to treat (NNT) and number needed to harm (NNH) as absolute-benefit metrics alongside relative ones.",
+    "Explains p-values: what they measure, common misinterpretations (proof of effect, proof of no effect), the significance threshold convention and its limits, and why statistical significance is not the same as clinical significance.",
+    "All worked mini-examples use only aggregate or synthetic figures; no individual patient-level or sub-aggregate SEER/registry cuts; all aggregate figures cited to sources.yaml with compatible allowedUse.",
+    "Cites authoritative statistical methods sources (e.g. Cochrane Handbook, authoritative biostatistics references); all citations in sources.yaml.",
+    "Written in plain language; every statistical term defined on first use with a glossary anchor.",
+    "Carries a persistent 'education only — not medical advice' notice and passes the advice-language checklist (task 002).",
+    "Passes the licence + provenance build gate and CI (build, lint, readability check).",
+    "Signed off by a credentialed oncologist (recorded in the review ledger): clinical framing is correct and nothing reads as treatment guidance.",
+    "Signed off by an experienced patient advocate (recorded in the review ledger): content is accessible and does not stray into advice.",
+    "Signed off by a methodology reviewer: all statistical explanations and mini-examples are numerically and methodologically accurate."
+  ],
+  "resources": [
+    "PLAN.md (§ Goals — Goal 2; § Dependencies)",
+    "TASKS.md (M1 acceptance criteria for module-104)",
+    "https://training.cochrane.org/handbook (Cochrane Handbook — authority for statistical concepts)",
+    "https://seer.cancer.gov/statistics/ (SEER aggregate statistics — aggregate examples only, with attribution)"
+  ],
+  "output": "A plain-language educational module (content/modules/statistics-for-appraisal.md) committed to the repo, covering HR, CI, absolute vs relative risk, NNT, and p-values — provenance-cited, CI-green, and carrying dual high-tier sign-off plus methodology review.",
+  "requestor": "TO BE SECURED",
+  "verifiedNeed": false,
+  "outputLicense": "CC-BY-4.0"
+}

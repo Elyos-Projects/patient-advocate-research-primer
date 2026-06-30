@@ -1,0 +1,33 @@
+{
+  "id": "patient-advocate-research-primer-i18n-305",
+  "title": "Localisation hooks (content extraction, no translation yet)",
+  "project": "patient-advocate-research-primer",
+  "type": "code",
+  "lane": "donated",
+  "priority": "medium",
+  "domain": ["cancer", "research-literacy", "education", "tooling", "i18n", "infrastructure"],
+  "riskTier": "low",
+  "urgent": false,
+  "deliverable": "pr",
+  "tokenEstimate": "small",
+  "status": "open",
+  "context": "Full translation of patient-facing health content is a future track (task 503) that is itself high-risk and requires re-review per language. Before that work is possible, the site architecture must support localisation: content strings extractable, locale routing in place, and the build pipeline ready to accept translated content. This task adds the infrastructure hooks only — no translations are produced here.",
+  "objective": "Add localisation infrastructure hooks to the static site — content extraction, locale routing, and build pipeline support — without producing any translations, so that future translation work (task 503) can be dropped in without architecture changes.",
+  "acceptanceCriteria": [
+    "Content strings are extracted from Markdown modules, worksheets, and UI elements into a localisation-ready format (e.g. i18n JSON/YAML resource files or front-matter locale keys).",
+    "Locale routing is configured in the static-site generator: the English (en) locale is the default and the only one initially populated.",
+    "Build pipeline accepts additional locale directories and processes them alongside English without failing; a placeholder 'es' or 'fr' stub can be added and processed by the build (even with English fallback) to prove the hooks work.",
+    "A CONTRIBUTING note documents how to add a new locale and what the translation review requirements are (pointing to the high-risk policy in task 002).",
+    "No translations are produced or committed; the English content is unchanged.",
+    "Maintainer review sign-off recorded."
+  ],
+  "resources": [
+    "PLAN.md (§ Scope — localisation hooks; § Out of scope — full translation in v1)",
+    "TASKS.md (Milestone M3)",
+    "tasks/patient-advocate-research-primer-site-301.json"
+  ],
+  "output": "A merged PR adding localisation infrastructure hooks (content extraction, locale routing, build pipeline) to the static site, with a documented process for adding locales, and no translations produced.",
+  "requestor": "TO BE SECURED",
+  "verifiedNeed": false,
+  "outputLicense": "MIT"
+}

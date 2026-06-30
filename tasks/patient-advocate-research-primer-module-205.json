@@ -1,0 +1,36 @@
+{
+  "id": "patient-advocate-research-primer-module-205",
+  "title": "Module: press release vs paper - spotting hype",
+  "project": "patient-advocate-research-primer",
+  "type": "writing",
+  "lane": "donated",
+  "priority": "medium",
+  "domain": ["cancer", "research-literacy", "education", "health", "media-literacy", "oncology"],
+  "riskTier": "high",
+  "urgent": false,
+  "deliverable": "document",
+  "tokenEstimate": "medium",
+  "status": "open",
+  "context": "Patient advocates are often the first in their community to encounter oncology press releases, conference abstracts, and news articles — often days before papers are available and without the statistical context to evaluate claims. This module maps common overclaim patterns to the worksheet questions that defuse them. Critically, it renders no verdicts on real products, studies, or institutions. TASKS.md provides specific acceptance criteria for this module.",
+  "objective": "Author an original, plain-language educational module on spotting hype in press releases and media coverage of oncology research — mapping overclaim patterns to appraisal questions — without rendering verdicts on any real product, study, or institution.",
+  "acceptanceCriteria": [
+    "Maps the following overclaim patterns to the worksheet questions that address them: surrogate-as-cure framing (e.g. 'shrinks tumours' without OS data), relative-risk headlines without absolute risk context, single-arm 'response' framing without a comparator, sponsor or investigator spin on negative or marginal results, and statistical significance reported as clinical significance.",
+    "Provides a 'press release checklist' advocates can apply to any announcement: What was the endpoint? What was the comparator? Is this statistically AND clinically significant? What phase is this? Is there a peer-reviewed paper?",
+    "Uses hypothetical or anonymised/aggregated examples only; renders no verdicts on any real drug, company, institution, or study; passes the advice-language checklist (task 002).",
+    "Cites media-literacy and research-integrity sources as authority; all citations resolve to sources.yaml with compatible allowedUse.",
+    "Written in plain language; no unexplained jargon without a glossary anchor.",
+    "Carries a persistent 'education only — not medical advice' notice.",
+    "Passes the licence + provenance build gate and CI.",
+    "Signed off by a credentialed oncologist (recorded in the review ledger): hype patterns accurately described, nothing reads as treatment guidance or verdict on any real product.",
+    "Signed off by an experienced patient advocate (recorded in the review ledger): content is usable and does not stray into advice or endorse/condemn specific studies.",
+    "Signed off by a methodology reviewer: overclaim patterns and their methodological basis are accurately described."
+  ],
+  "resources": [
+    "PLAN.md (§ Goals — Goal 2; § Non-goals — no verdicts on specific science)",
+    "TASKS.md (M2 acceptance criteria for module-205)"
+  ],
+  "output": "A plain-language educational module (content/modules/spotting-hype.md) committed to the repo, mapping overclaim patterns to appraisal questions, provenance-cited, CI-green, and carrying dual high-tier sign-off plus methodology review.",
+  "requestor": "TO BE SECURED",
+  "verifiedNeed": false,
+  "outputLicense": "CC-BY-4.0"
+}

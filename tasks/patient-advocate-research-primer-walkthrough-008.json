@@ -1,0 +1,37 @@
+{
+  "id": "patient-advocate-research-primer-walkthrough-008",
+  "title": "Annotated walkthrough of ONE licence-verified OA RCT paper",
+  "project": "patient-advocate-research-primer",
+  "type": "writing",
+  "lane": "donated",
+  "priority": "high",
+  "domain": ["cancer", "research-literacy", "education", "health", "appraisal", "rct"],
+  "riskTier": "high",
+  "urgent": false,
+  "deliverable": "document",
+  "tokenEstimate": "medium",
+  "status": "open",
+  "context": "The M0 slice requires a concrete demonstration of appraisal in action. This walkthrough pairs exactly one licence-verified, fully open-access oncology RCT paper with inline appraisal commentary keyed to the RCT worksheet (task 007). The paper must be verified per-article for a reuse-permitting licence (CC0, CC-BY, or CC-BY-SA) and recorded in sources.yaml with PMCID/DOI and licence before any content is authored.",
+  "objective": "Author an annotated walkthrough applying the RCT worksheet (task 007) to exactly one licence-verified, fully open-access oncology RCT paper — demonstrating the appraisal process end-to-end and obtaining dual high-tier sign-off.",
+  "acceptanceCriteria": [
+    "Uses exactly one oncology RCT paper from the PMC Open Access Subset with a verified reuse-permitting licence (CC0, CC-BY, or CC-BY-SA) recorded in data/sources.yaml with PMCID, DOI, licence, licenceVerifiedDate, and verifiedBy before authoring begins.",
+    "Figures are reproduced only if the paper's licence explicitly permits reproduction; otherwise they are linked by PMCID/figure number. No figures from NC/ND-licensed papers are reproduced.",
+    "Applies the RCT worksheet (task 007) inline: each worksheet question is addressed in turn with commentary explaining what the paper shows and what an advocate should notice.",
+    "Renders no verdicts on the paper's findings or on the drug/treatment studied; framing is purely methodological ('this is what this section of the paper shows and why it matters for appraisal').",
+    "Carries a persistent 'education only — not medical advice' notice.",
+    "Passes the advice-language checklist (task 002) and the licence + provenance build gate (task 004).",
+    "Signed off by a credentialed oncologist (recorded in the review ledger): clinical framing is correct and no section reads as treatment guidance.",
+    "Signed off by an experienced patient advocate (recorded in the review ledger): walkthrough is clear, accessible, and does not stray into advice.",
+    "Signed off by a methodology reviewer: appraisal commentary is methodologically accurate."
+  ],
+  "resources": [
+    "PLAN.md (§ Scope — annotated walkthroughs; § Data, licensing & compliance — Source classes)",
+    "TASKS.md (M0 acceptance criteria for walkthrough-008)",
+    "https://www.ncbi.nlm.nih.gov/pmc/tools/openftlist/ (PMC OA Subset — source for licence-verified papers)",
+    "tasks/patient-advocate-research-primer-worksheet-007.json"
+  ],
+  "output": "An annotated walkthrough document (content/walkthroughs/rct-walkthrough-001.md) committed to the repo, applying the RCT worksheet to a single CC-licensed OA paper, with the paper's provenance in sources.yaml, CI-green, and carrying dual high-tier sign-off plus methodology review.",
+  "requestor": "TO BE SECURED",
+  "verifiedNeed": false,
+  "outputLicense": "CC-BY-4.0"
+}

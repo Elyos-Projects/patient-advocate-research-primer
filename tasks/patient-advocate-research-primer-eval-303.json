@@ -1,0 +1,34 @@
+{
+  "id": "patient-advocate-research-primer-eval-303",
+  "title": "Pre/post evaluation instrument (appraisal rubric + confidence survey)",
+  "project": "patient-advocate-research-primer",
+  "type": "research",
+  "lane": "donated",
+  "priority": "medium",
+  "domain": ["cancer", "research-literacy", "education", "health", "evaluation", "research-methods"],
+  "riskTier": "medium",
+  "urgent": false,
+  "deliverable": "document",
+  "tokenEstimate": "medium",
+  "status": "open",
+  "context": "The project's primary outcome metrics are a measurable gain in advocates' appraisal ability (>= 25-point median gain on a 100-pt rubric) and self-rated confidence (+= 2 on a 5-pt scale). These require a validated pre/post evaluation instrument. The instrument must be designed carefully so it can detect genuine skill gain, not familiarity with the specific papers used in the walkthrough examples. A methodology reviewer must sign off.",
+  "objective": "Design and author a pre/post evaluation instrument comprising a blinded appraisal rubric and a validated confidence survey, capable of measuring the skill-gain and confidence-gain outcome metrics specified in PLAN.md.",
+  "acceptanceCriteria": [
+    "The appraisal rubric is scored on a 100-point scale; it applies to a novel annotated-paper exercise distinct from the walkthrough examples used in training, so pre/post scoring is not contaminated by familiarity.",
+    "The rubric covers the core appraisal domains taught in the curriculum: study design identification, endpoint interpretation, effect-size reading, bias identification, and COI/funding assessment.",
+    "The confidence survey uses a validated PPI confidence instrument or an original survey validated against it, with a 5-point scale per domain.",
+    "Instrument is usable both pre-pilot (before any training) and post-pilot (immediately after); administration instructions are included.",
+    "The paper used in the rubric exercise is licence-verified (CC-licensed OA, recorded in sources.yaml) and distinct from the M0/M2 walkthrough papers.",
+    "Methodology reviewer sign-off recorded: instrument design is capable of detecting the target skill gains and is free from obvious bias or floor/ceiling effects.",
+    "Advocate reviewer sign-off recorded: instrument is accessible and usable by lay advocates."
+  ],
+  "resources": [
+    "PLAN.md (§ Success metrics — Metrics 1 and 2)",
+    "TASKS.md (Milestone M3)",
+    "https://www.ncbi.nlm.nih.gov/pmc/tools/openftlist/ (PMC OA Subset — for the rubric exercise paper)"
+  ],
+  "output": "A pre/post evaluation instrument document (governance/evaluation-instrument.md or equivalent) committed to the repo, comprising an appraisal rubric and confidence survey with administration instructions, carrying methodology + advocate review sign-offs.",
+  "requestor": "TO BE SECURED",
+  "verifiedNeed": false,
+  "outputLicense": "CC-BY-4.0"
+}
