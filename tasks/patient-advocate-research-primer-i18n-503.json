@@ -1,0 +1,35 @@
+{
+  "id": "patient-advocate-research-primer-i18n-503",
+  "title": "Full translation of vetted content (high-risk; needs translation review)",
+  "project": "patient-advocate-research-primer",
+  "type": "writing",
+  "lane": "donated",
+  "priority": "low",
+  "domain": ["cancer", "research-literacy", "education", "health", "translation", "i18n"],
+  "riskTier": "high",
+  "urgent": false,
+  "deliverable": "translation",
+  "tokenEstimate": "large",
+  "status": "open",
+  "context": "Translated patient-facing health content is itself high-risk: a translation error in an educational oncology resource could mislead advocates and harm the patients they represent. Full translation is explicitly out of scope for v1 and is a future track, gated on: the English content being fully vetted and v1.0 tagged; localisation hooks (task 305) in place; and per-language dual sign-off (oncologist + patient-advocate reviewer fluent in the target language) secured. No specific target languages are enumerated yet — this task will be instantiated per language when a need is confirmed and reviewers are secured.",
+  "objective": "Produce a fully reviewed translation of the complete vetted English curriculum into a target language, with per-language dual high-tier sign-off (oncologist + patient-advocate reviewer fluent in the target language) — scoped when a specific language and partner are confirmed.",
+  "acceptanceCriteria": [
+    "English source content is fully vetted (v1.0 tagged) and localisation hooks (task 305) are in place before translation begins.",
+    "Target language and a confirmed partner with advocates who need content in that language are identified before this task is scoped (no translation without a confirmed language need).",
+    "Translation is produced by a translator fluent in both English and the target language with subject-matter familiarity in health/research methodology.",
+    "Translation is reviewed and signed off by a credentialed oncologist fluent in the target language (recorded in the review ledger): clinical terminology is correct and nothing reads as treatment guidance in the target language.",
+    "Translation is reviewed and signed off by an experienced patient advocate fluent in the target language (recorded in the review ledger): content is accessible and does not stray into advice in the target language.",
+    "All 'not medical advice' notices and provenance footers are translated and present in the target-language version.",
+    "Translated content passes the CI build (licence + provenance gate, broken-link check) in the target-language locale.",
+    "Translation licence is compatible with CC-BY-4.0; translator attribution is included in the NOTICE file."
+  ],
+  "resources": [
+    "PLAN.md (§ Out of scope — translation beyond design hooks in v1; Open Q7 on localisation)",
+    "TASKS.md (Backlog / future — Each language re-reviewed; gated like patient-facing content)",
+    "tasks/patient-advocate-research-primer-i18n-305.json"
+  ],
+  "output": "A translated version of the complete vetted curriculum in the confirmed target language, committed to the repo under the localisation structure from task 305, with per-language dual high-tier sign-offs recorded in the review ledger.",
+  "requestor": "TO BE SECURED",
+  "verifiedNeed": false,
+  "outputLicense": "CC-BY-4.0"
+}

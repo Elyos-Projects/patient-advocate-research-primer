@@ -1,0 +1,35 @@
+{
+  "id": "patient-advocate-research-primer-facilitator-505",
+  "title": "Facilitator/workshop guide for advocacy orgs",
+  "project": "patient-advocate-research-primer",
+  "type": "writing",
+  "lane": "donated",
+  "priority": "low",
+  "domain": ["cancer", "research-literacy", "education", "health", "patient-advocacy", "training"],
+  "riskTier": "medium",
+  "urgent": false,
+  "deliverable": "document",
+  "tokenEstimate": "medium",
+  "status": "open",
+  "context": "Advocacy organisations that want to run group training workshops using the primer need a facilitator guide — session plans, discussion prompts, timing guidance, and instructions for administering the pre/post evaluation instrument. This guide supports reuse and adoption (outcome metric 7: >= 3 orgs adopt the material within 12 months of v1.0) and lowers the barrier for an org to run the curriculum without the original maintainer's involvement.",
+  "objective": "Author a facilitator and workshop guide for advocacy organisations wishing to run group training sessions using the Patient-Advocate-Research-Primer curriculum, covering session plans, facilitation tips, and evaluation administration.",
+  "acceptanceCriteria": [
+    "Covers a recommended workshop structure for the full curriculum (e.g. a multi-session format) and a condensed single-session format, with timing guidance for each.",
+    "Includes discussion prompts and facilitation tips for each module, designed to surface advocates' existing assumptions and common misconceptions about research evidence.",
+    "Includes instructions for administering the pre/post evaluation instrument (task 303): timing, instructions to participants, scoring guidance, and how to report results back to the project.",
+    "Written accessibly for an advocacy organisation staff member with no formal research training.",
+    "Carries a CC-BY-4.0 licence so organisations can adapt it for their own use.",
+    "Carries a persistent 'education only — not medical advice' notice.",
+    "Methodology reviewer sign-off recorded: facilitation approach and discussion prompts are pedagogically sound.",
+    "Experienced patient advocate sign-off recorded: guide is usable and appropriate for the intended facilitator audience."
+  ],
+  "resources": [
+    "PLAN.md (§ Success metrics — Metric 7: >= 3 orgs adopt; § Sustainability — forkability)",
+    "TASKS.md (Backlog / future — supports reuse/adoption)",
+    "tasks/patient-advocate-research-primer-eval-303.json"
+  ],
+  "output": "A facilitator and workshop guide (content/facilitator-guide.md or equivalent) committed to the repo under CC-BY-4.0, covering workshop formats, facilitation tips, module discussion prompts, and evaluation administration instructions.",
+  "requestor": "TO BE SECURED",
+  "verifiedNeed": false,
+  "outputLicense": "CC-BY-4.0"
+}

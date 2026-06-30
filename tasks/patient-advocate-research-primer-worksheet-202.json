@@ -1,0 +1,37 @@
+{
+  "id": "patient-advocate-research-primer-worksheet-202",
+  "title": "Worksheet: observational / cohort studies (confounding focus)",
+  "project": "patient-advocate-research-primer",
+  "type": "writing",
+  "lane": "donated",
+  "priority": "medium",
+  "domain": ["cancer", "research-literacy", "education", "health", "appraisal", "observational-studies"],
+  "riskTier": "high",
+  "urgent": false,
+  "deliverable": "document",
+  "tokenEstimate": "medium",
+  "status": "open",
+  "context": "Observational studies — cohort and case-control designs — are common in oncology epidemiology and registry research, and are frequently misread by advocates as proving causation rather than association. Confounding is the central methodological threat. This original worksheet gives advocates a structured way to appraise observational designs, without adapting STROBE or other licence-incompatible checklists.",
+  "objective": "Author an original, CC-BY-licensed critical-appraisal worksheet for observational and cohort studies, with a focus on confounding identification and control, authored from methodological first principles without copying any non-commercial or share-alike checklist.",
+  "acceptanceCriteria": [
+    "Authored from methodological first principles; cites EQUATOR/STROBE reporting guidance and Cochrane/GRADE observational-evidence grading as conceptual authority without reproducing copyrighted checklist text; passes the licence gate clean.",
+    "Covers: study design (prospective cohort, retrospective cohort, case-control, cross-sectional); exposure and outcome definition; selection bias; confounding (what it is, examples, methods used to control it — multivariable adjustment, propensity scoring, restriction); effect modification; follow-up completeness and loss to follow-up; conflict of interest and funding.",
+    "Includes a 'association vs causation' guidance section helping advocates understand why observational findings require different language than RCT findings.",
+    "Written in plain language; questions guide appraisal, not verdicts.",
+    "Printable and usable offline; clean Markdown renderable to PDF.",
+    "Carries a persistent 'education only — not medical advice' notice.",
+    "Every methodological concept cited to sources.yaml with compatible allowedUse; passes the licence + provenance build gate and CI.",
+    "Signed off by a credentialed oncologist (recorded in the review ledger): clinical framing is correct and nothing reads as treatment guidance.",
+    "Signed off by an experienced patient advocate (recorded in the review ledger): worksheet is usable and does not stray into advice.",
+    "Signed off by a methodology reviewer: confounding and appraisal questions are methodologically accurate for observational designs."
+  ],
+  "resources": [
+    "PLAN.md (§ Scope — original critical-appraisal worksheets; § Data, licensing & compliance — CASP/STROBE licence incompatibility)",
+    "TASKS.md (Milestone M2)",
+    "https://www.equator-network.org/reporting-guidelines/strobe/ (STROBE — cited as authority, not reproduced)"
+  ],
+  "output": "An original observational / cohort study critical-appraisal worksheet (content/worksheets/observational-appraisal.md) committed under CC-BY-4.0, provenance-cited, CI-green, and carrying dual high-tier sign-off plus methodology review.",
+  "requestor": "TO BE SECURED",
+  "verifiedNeed": false,
+  "outputLicense": "CC-BY-4.0"
+}

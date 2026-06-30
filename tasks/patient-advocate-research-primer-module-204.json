@@ -1,0 +1,37 @@
+{
+  "id": "patient-advocate-research-primer-module-204",
+  "title": "Module: bias, confounding & conflicts of interest",
+  "project": "patient-advocate-research-primer",
+  "type": "writing",
+  "lane": "donated",
+  "priority": "medium",
+  "domain": ["cancer", "research-literacy", "education", "health", "bias", "methodology"],
+  "riskTier": "high",
+  "urgent": false,
+  "deliverable": "document",
+  "tokenEstimate": "medium",
+  "status": "open",
+  "context": "Bias, confounding, and conflicts of interest are pervasive in oncology research and are the hardest for advocates to spot. This module provides a structured taxonomy of bias types (selection, performance, detection, attrition, reporting), explains confounding in plain language, and gives advocates a framework for identifying and weighting conflicts of interest and funding sources. It is patient-facing educational content requiring dual high-tier sign-off.",
+  "objective": "Author an original, plain-language educational module on bias types, confounding, and conflicts of interest in oncology research — providing advocates with a structured framework for identifying and interpreting these threats to evidence quality.",
+  "acceptanceCriteria": [
+    "Covers the major bias types relevant to oncology RCTs and observational studies: selection bias, performance bias, detection bias, attrition bias, and reporting bias (including outcome reporting bias and publication bias), with plain-language definitions and examples.",
+    "Explains confounding in plain language: what it is, why it matters, and how to identify methods that attempt to control for it (randomisation, adjustment, restriction, propensity scoring).",
+    "Covers conflicts of interest and funding: types of financial and non-financial COI, how to locate COI disclosures, what industry funding is associated with in the oncology literature, and the advocate's role in noting (not adjudicating) COI.",
+    "Cites authoritative sources (Cochrane RoB tool methodology, GRADE for reporting bias, COI research); all citations resolve to sources.yaml with compatible allowedUse.",
+    "Written in plain language; no unexplained jargon without a glossary anchor.",
+    "Carries a persistent 'education only — not medical advice' notice and passes the advice-language checklist (task 002).",
+    "Passes the licence + provenance build gate and CI.",
+    "Signed off by a credentialed oncologist (recorded in the review ledger): clinical framing is correct and nothing reads as treatment guidance.",
+    "Signed off by an experienced patient advocate (recorded in the review ledger): content is accessible and does not stray into advice.",
+    "Signed off by a methodology reviewer: bias taxonomy and confounding explanations are methodologically accurate."
+  ],
+  "resources": [
+    "PLAN.md (§ Goals — Goal 2; § Risks — methodological error)",
+    "TASKS.md (Milestone M2)",
+    "https://training.cochrane.org/handbook (Cochrane Handbook — RoB tool and bias taxonomy)"
+  ],
+  "output": "A plain-language educational module (content/modules/bias-confounding-coi.md) committed to the repo, covering bias types, confounding, and conflicts of interest, provenance-cited, CI-green, and carrying dual high-tier sign-off plus methodology review.",
+  "requestor": "TO BE SECURED",
+  "verifiedNeed": false,
+  "outputLicense": "CC-BY-4.0"
+}

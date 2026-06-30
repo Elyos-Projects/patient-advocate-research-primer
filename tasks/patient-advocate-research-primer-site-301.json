@@ -1,0 +1,36 @@
+{
+  "id": "patient-advocate-research-primer-site-301",
+  "title": "Accessible static site (WCAG 2.1 AA) + persistent \"not medical advice\"/provenance footers",
+  "project": "patient-advocate-research-primer",
+  "type": "code",
+  "lane": "donated",
+  "priority": "medium",
+  "domain": ["cancer", "research-literacy", "education", "accessibility", "web", "infrastructure"],
+  "riskTier": "low",
+  "urgent": false,
+  "deliverable": "pr",
+  "tokenEstimate": "medium",
+  "status": "open",
+  "context": "The educational content authored in M1 and M2 must be delivered in an accessible, printable, offline-capable format. This task builds the complete static site from the M1/M2 content corpus, meeting WCAG 2.1 AA and carrying the mandatory 'not medical advice' and per-page provenance footers on every patient-facing page. The site has no accounts, no backend, and no identifying analytics.",
+  "objective": "Build and merge a complete, accessible static site rendering the M1/M2 content corpus, meeting WCAG 2.1 AA, with persistent 'not medical advice' and per-page review/provenance footers on all patient-facing content.",
+  "acceptanceCriteria": [
+    "All M1 and M2 modules, worksheets, glossary, and walkthroughs are rendered in the static site with correct navigation.",
+    "WCAG 2.1 AA compliance verified by automated tool (e.g. axe-core) with zero critical violations; manual keyboard-navigation and screen-reader spot-check documented.",
+    "Persistent 'education only — not medical advice' banner/notice present on every patient-facing page, not dismissable.",
+    "Per-page provenance footer links to the sources.yaml entries for that page's citations and shows last-reviewed date and reviewer roles.",
+    "Site is offline-capable (e.g. service worker or printable-first design) and renders well in print/PDF view.",
+    "No personal data collected, no identifying cookies or analytics; any usage counting is cookieless and aggregate-only.",
+    "Lighthouse accessibility score >= 90 on all key pages.",
+    "CI build produces the site artefact and the deployment step is documented.",
+    "Maintainer review sign-off recorded."
+  ],
+  "resources": [
+    "PLAN.md (§ Solution approach — Static site; § Success metrics — Metric 8 accessibility)",
+    "TASKS.md (Milestone M3)",
+    "https://www.w3.org/TR/WCAG21/ (WCAG 2.1 AA)"
+  ],
+  "output": "A merged PR delivering the complete static site build with WCAG 2.1 AA compliance, persistent 'not medical advice' and provenance footers, and offline/printable capability.",
+  "requestor": "TO BE SECURED",
+  "verifiedNeed": false,
+  "outputLicense": "MIT"
+}

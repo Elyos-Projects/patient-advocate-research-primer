@@ -1,0 +1,34 @@
+{
+  "id": "patient-advocate-research-primer-gate-004",
+  "title": "Licence + provenance build gate (fails CI on unverified/incompatible source or dangling citation)",
+  "project": "patient-advocate-research-primer",
+  "type": "code",
+  "lane": "donated",
+  "priority": "high",
+  "domain": ["cancer", "research-literacy", "tooling", "licensing", "provenance", "infrastructure"],
+  "riskTier": "low",
+  "urgent": false,
+  "deliverable": "pr",
+  "tokenEstimate": "medium",
+  "status": "open",
+  "context": "The source-register schema (task 001) defines how sources are recorded; the repo skeleton (task 003) provides the CI pipeline. This task implements the enforcement layer: a build gate that fails CI whenever content cites an unverified source, uses a source beyond its allowed-use rights, or has a dangling citation with no matching sources.yaml entry. This is non-negotiable: no content may ship citing an unverified or incompatible source.",
+  "objective": "Implement the licence + provenance build gate as a CI step that enforces the source-register schema: dangling citations, incompatible allowed-use, and missing licence-verification dates all fail the build.",
+  "acceptanceCriteria": [
+    "CI fails if any content citation references a source ID with no matching entry in data/sources.yaml (dangling reference check).",
+    "CI fails if content uses a source with allowedUse 'link' or 'quote' in a 'reproduce' or 'adapt' context (licence-compatibility check).",
+    "CI fails if any sources.yaml entry is missing licenceVerifiedDate or verifiedBy.",
+    "Link-checking step runs as part of CI and fails on broken URLs in sources.yaml or content citations.",
+    "The gate is documented in CONTRIBUTING.md: how to add a source, what allowedUse values mean, and how to fix each failure mode.",
+    "At least one passing test case (a valid citation) and one failing test case per failure mode are included in the test suite.",
+    "Maintainer + Licence steward review sign-off recorded."
+  ],
+  "resources": [
+    "PLAN.md (§ Solution approach & architecture — Build/validation tooling; § Data, licensing & compliance — Provenance model)",
+    "TASKS.md (M0 acceptance criteria for gate-004)",
+    "tasks/patient-advocate-research-primer-licence-001.json (source-register schema)"
+  ],
+  "output": "A merged PR adding the licence + provenance build gate to the CI pipeline, with tests covering all failure modes and CONTRIBUTING documentation.",
+  "requestor": "TO BE SECURED",
+  "verifiedNeed": false,
+  "outputLicense": "MIT"
+}

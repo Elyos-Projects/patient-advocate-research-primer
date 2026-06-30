@@ -1,0 +1,37 @@
+{
+  "id": "patient-advocate-research-primer-module-502",
+  "title": "Module: diagnostic & biomarker test appraisal (sensitivity/specificity/PPV)",
+  "project": "patient-advocate-research-primer",
+  "type": "writing",
+  "lane": "donated",
+  "priority": "low",
+  "domain": ["cancer", "research-literacy", "education", "health", "biomarkers", "diagnostics"],
+  "riskTier": "high",
+  "urgent": false,
+  "deliverable": "document",
+  "tokenEstimate": "medium",
+  "status": "open",
+  "context": "Biomarker-driven oncology trials and diagnostic tests are increasingly prominent, and patient advocates need to understand the performance metrics used to evaluate them: sensitivity, specificity, positive predictive value (PPV), negative predictive value (NPV), and how these interact with disease prevalence. This module pairs with a future biomarker worksheet and extends the M1/M2 curriculum. It is patient-facing high-risk content.",
+  "objective": "Author an original, plain-language educational module on diagnostic and biomarker test appraisal, covering sensitivity, specificity, PPV, NPV, and the effect of prevalence on test performance — for patient advocates reading biomarker-driven trial results.",
+  "acceptanceCriteria": [
+    "Covers: sensitivity and specificity (what each measures), positive and negative predictive value (how they differ from sensitivity/specificity), the effect of disease prevalence on PPV and NPV, and why a highly sensitive test in a low-prevalence population may have low PPV.",
+    "Explains the clinical relevance of these concepts to oncology biomarker trials: companion diagnostics, predictive vs prognostic biomarkers, and the difference between analytical validity, clinical validity, and clinical utility.",
+    "Uses worked mini-examples with aggregate or synthetic figures only (no individual patient data).",
+    "Cites FDA/EMA biomarker validation guidance and authoritative methodological sources; all citations in sources.yaml with compatible allowedUse.",
+    "Written in plain language; every statistical term defined on first use.",
+    "Carries a persistent 'education only — not medical advice' notice and passes the advice-language checklist.",
+    "Passes the licence + provenance build gate and CI.",
+    "Signed off by a credentialed oncologist (recorded in the review ledger): clinical framing is correct and nothing reads as diagnostic guidance.",
+    "Signed off by an experienced patient advocate (recorded in the review ledger): content is accessible and does not stray into advice.",
+    "Signed off by a methodology reviewer: sensitivity/specificity/PPV explanations and examples are numerically accurate."
+  ],
+  "resources": [
+    "PLAN.md (§ Scope — in scope; § Goals — Goal 2)",
+    "TASKS.md (Backlog / future — pairs with a biomarker worksheet)",
+    "https://www.fda.gov/medical-devices/in-vitro-diagnostics/biomarkers (FDA biomarker guidance)"
+  ],
+  "output": "A plain-language educational module (content/modules/diagnostic-biomarker-appraisal.md) committed to the repo, covering sensitivity/specificity/PPV/NPV and biomarker test interpretation, provenance-cited, CI-green, and carrying dual high-tier sign-off plus methodology review.",
+  "requestor": "TO BE SECURED",
+  "verifiedNeed": false,
+  "outputLicense": "CC-BY-4.0"
+}

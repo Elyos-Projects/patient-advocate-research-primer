@@ -1,0 +1,33 @@
+{
+  "id": "patient-advocate-research-primer-print-302",
+  "title": "Printable/offline worksheet pack (PDF)",
+  "project": "patient-advocate-research-primer",
+  "type": "code",
+  "lane": "donated",
+  "priority": "medium",
+  "domain": ["cancer", "research-literacy", "education", "accessibility", "tooling"],
+  "riskTier": "low",
+  "urgent": false,
+  "deliverable": "pr",
+  "tokenEstimate": "small",
+  "status": "open",
+  "context": "Patient advocates often work in settings without reliable internet access — paper copies of worksheets are a key accessibility feature. This task builds a CI step that generates a bundled printable PDF pack of all worksheets (RCT, early-phase, observational, SR/MA) from the Markdown source, with 'not medical advice' notices and CC-BY attribution included in the print layout.",
+  "objective": "Build and merge a CI step that generates a printable PDF worksheet pack from the Markdown worksheet sources, including all study-type worksheets, 'not medical advice' notices, and CC-BY attribution.",
+  "acceptanceCriteria": [
+    "CI generates a bundled PDF containing all completed worksheets (task 007 RCT, 201 early-phase, 202 observational, 203 SR/MA) from Markdown source on each build.",
+    "Each worksheet in the PDF is clearly titled, includes the 'education only — not medical advice' notice, and carries a CC-BY-4.0 attribution footer.",
+    "PDF is printer-friendly: clean layout, adequate font size (>= 11pt), sufficient line spacing, and print margins suitable for A4 and US Letter.",
+    "Generated PDF is committed as a release artefact or linked from the site; instructions for downloading and printing are in the site's accessibility section.",
+    "Build step is idempotent and does not require manual steps.",
+    "Maintainer + Advocate review sign-off recorded (Advocate confirms usability of the printed format)."
+  ],
+  "resources": [
+    "PLAN.md (§ Scope — printable/offline worksheets; § Success metrics — Metric 8)",
+    "TASKS.md (Milestone M3)",
+    "tasks/patient-advocate-research-primer-site-301.json"
+  ],
+  "output": "A merged PR adding a CI step that generates a printable PDF worksheet pack from Markdown source, with 'not medical advice' notices and CC-BY attribution, produced on every build.",
+  "requestor": "TO BE SECURED",
+  "verifiedNeed": false,
+  "outputLicense": "MIT"
+}

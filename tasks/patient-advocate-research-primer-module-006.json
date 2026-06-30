@@ -1,0 +1,37 @@
+{
+  "id": "patient-advocate-research-primer-module-006",
+  "title": "Module: \"What kind of study is this?\" (design/phase/arms/blinding)",
+  "project": "patient-advocate-research-primer",
+  "type": "writing",
+  "lane": "donated",
+  "priority": "high",
+  "domain": ["cancer", "research-literacy", "education", "health", "study-design"],
+  "riskTier": "high",
+  "urgent": false,
+  "deliverable": "document",
+  "tokenEstimate": "medium",
+  "status": "open",
+  "context": "This is the first patient-facing educational module of the primer and the anchor for the M0 slice. It teaches cancer patient advocates to classify a study by design (RCT, observational, single-arm), phase (I–IV), arm structure, and blinding — foundational knowledge required to locate a study on the evidence hierarchy and apply any worksheet. It must be education, not advice, and is high risk-tier requiring dual sign-off.",
+  "objective": "Author an original, plain-language educational module that teaches patient advocates to identify study type, design, trial phase, arm structure, and blinding, with every claim provenance-cited and dual high-tier sign-off obtained.",
+  "acceptanceCriteria": [
+    "Covers: randomised controlled trial vs observational vs single-arm study; trial phases I, II, III, and IV and what each can and cannot show; arm structure (parallel, crossover, factorial); blinding (open-label, single-blind, double-blind, triple-blind) and its relevance to bias.",
+    "Written in plain language targeting a lay audience; no unexplained jargon without a glossary anchor.",
+    "Carries a persistent 'education only — not medical advice' notice consistent with the policy (task 002).",
+    "Every factual and methodological claim is provenance-cited to an entry in data/sources.yaml with a compatible allowedUse; passes the licence + provenance build gate (task 004).",
+    "Content passes the advice-language checklist (task 002): no prescriptive second-person forms, no treatment recommendations, no individualised guidance.",
+    "CI passes: build, lint, licence + provenance gate, and readability check.",
+    "Signed off by a credentialed oncologist (recorded in the review ledger): clinical framing is correct and nothing reads as treatment guidance.",
+    "Signed off by an experienced patient advocate (recorded in the review ledger): content is usable, accessible, and does not patronise or stray into advice.",
+    "Signed off by a methodology reviewer: study-design and phase descriptions are methodologically accurate."
+  ],
+  "resources": [
+    "PLAN.md (§ Goals — Goal 1; § Solution approach — Content corpus)",
+    "TASKS.md (Milestone M0)",
+    "tasks/patient-advocate-research-primer-policy-002.json",
+    "tasks/patient-advocate-research-primer-gate-004.json"
+  ],
+  "output": "A plain-language educational module (content/modules/what-kind-of-study.md or equivalent) committed to the repo, covering study design, phase, arms, and blinding — provenance-cited, CI-green, and carrying dual high-tier sign-off.",
+  "requestor": "TO BE SECURED",
+  "verifiedNeed": false,
+  "outputLicense": "CC-BY-4.0"
+}

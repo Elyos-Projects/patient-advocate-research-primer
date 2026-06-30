@@ -1,0 +1,35 @@
+{
+  "id": "patient-advocate-research-primer-glossary-105",
+  "title": "Methodology glossary seed (>= 60 terms, original defs + provenance)",
+  "project": "patient-advocate-research-primer",
+  "type": "writing",
+  "lane": "donated",
+  "priority": "high",
+  "domain": ["cancer", "research-literacy", "education", "health", "glossary", "methodology"],
+  "riskTier": "medium",
+  "urgent": false,
+  "deliverable": "document",
+  "tokenEstimate": "medium",
+  "status": "open",
+  "context": "The primer modules use many methodology terms that patient advocates may not know. A glossary provides consistent definitions and provenance anchors for each term used across modules and worksheets. Definitions must be original (not copied from NCI or Cochrane verbatim) but can cite those as authoritative anchors. At riskTier medium, this is a methodology-reviewed document that serves as a dependency for all modules linking to glossary terms.",
+  "objective": "Author an original methodology glossary seeded with at least 60 terms covering study design, evidence grading, statistical concepts, and endpoint types — with advocate-facing definitions, 'why it matters for appraisal' notes, common misreadings, and provenance citations for each entry.",
+  "acceptanceCriteria": [
+    "Contains at least 60 glossary entries covering at minimum: randomisation, allocation concealment, blinding (open-label/single/double), phase I/II/III/IV, evidence hierarchy, systematic review, meta-analysis, RCT, cohort study, case-control study, overall survival, progression-free survival, objective response rate, surrogate endpoint, biomarker, hazard ratio, confidence interval, absolute risk reduction, relative risk reduction, number needed to treat, p-value, statistical significance, clinical significance, intention-to-treat, per-protocol, attrition, effect size, GRADE, CONSORT, PRISMA, bias, confounding, conflict of interest, blinding, endpoint, primary endpoint, secondary endpoint.",
+    "Each entry includes: plain-language advocate-facing definition, 'why it matters for appraisal' one- or two-sentence note, at least one common misreading or misuse to watch for, and provenance citation(s) in sources.yaml.",
+    "Definitions are original prose — not copied verbatim from NCI, Cochrane, or other copyrighted sources; NCI Dictionary and Cochrane Handbook cited as authority anchors where relevant.",
+    "Machine-readable format (YAML or JSON front-matter per entry) consumable by the static-site glossary rendering.",
+    "All provenance citations resolve to sources.yaml entries with compatible allowedUse; passes the licence + provenance build gate.",
+    "Signed off by a methodology reviewer: all definitions are methodologically accurate and common-misreading flags are correct.",
+    "Signed off by an experienced patient advocate (recorded in the review ledger): definitions are usable and accessible to a lay audience."
+  ],
+  "resources": [
+    "PLAN.md (§ Solution approach — Glossary; § Dependencies — NCI Dictionaries)",
+    "TASKS.md (Milestone M1)",
+    "https://www.cancer.gov/publications/dictionaries/cancer-terms (NCI Cancer Terms — cited as authority anchor)",
+    "https://training.cochrane.org/handbook (Cochrane Handbook — methodology anchors)"
+  ],
+  "output": "A methodology glossary seed (content/glossary/) committed to the repo with at least 60 original definitions, each with provenance — in machine-readable format, CI-green, and carrying methodology + advocate review sign-offs.",
+  "requestor": "TO BE SECURED",
+  "verifiedNeed": false,
+  "outputLicense": "CC-BY-4.0"
+}

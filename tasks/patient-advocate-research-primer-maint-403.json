@@ -1,0 +1,34 @@
+{
+  "id": "patient-advocate-research-primer-maint-403",
+  "title": "Maintenance + re-review cadence + licence re-verification plan; tag v1.0",
+  "project": "patient-advocate-research-primer",
+  "type": "maintenance",
+  "lane": "donated",
+  "priority": "low",
+  "domain": ["cancer", "research-literacy", "education", "governance", "licensing", "maintenance"],
+  "riskTier": "low",
+  "urgent": false,
+  "deliverable": "document",
+  "tokenEstimate": "small",
+  "status": "open",
+  "context": "After the pilot report (task 402), the project needs a documented maintenance and re-review plan before tagging v1.0. Science guidance changes, licences change, and the oncology landscape evolves. The plan must commit a named maintenance owner, a re-review cadence for patient-facing content, and a licence re-verification schedule. Only then is the project ready to tag v1.0 and declare the donated-lane work complete.",
+  "objective": "Document and commit the maintenance plan, re-review cadence for patient-facing content, and licence re-verification schedule — and tag v1.0 of the project once the plan is approved.",
+  "acceptanceCriteria": [
+    "A named maintenance owner (individual or organisation) is committed and documented in the governance plan.",
+    "A content re-review cadence is defined: patient-facing modules and worksheets re-reviewed at least annually by the oncologist + advocate reviewers, or on material guideline change (whichever is sooner); process and triggers documented.",
+    "A licence re-verification schedule is defined: all sources.yaml entries re-verified by the licence steward at least annually; process for handling licences that change (e.g. NC restriction added) documented.",
+    "Issue templates for corrections, outdated-science reports, and licence-change flags are committed to the repo.",
+    "CONTRIBUTING guide is updated to document the corrections and re-review process.",
+    "v1.0 is tagged in git after plan is approved and pilot report (task 402) is published.",
+    "Maintainer + Licence steward review sign-off recorded."
+  ],
+  "resources": [
+    "PLAN.md (§ Sustainability & maintenance)",
+    "TASKS.md (Milestone M4 — Definition of Done)",
+    "tasks/patient-advocate-research-primer-report-402.json"
+  ],
+  "output": "A maintenance and sustainability plan document (governance/maintenance-plan.md) committed to the repo, with re-review and licence re-verification cadences, issue templates, and the v1.0 git tag.",
+  "requestor": "TO BE SECURED",
+  "verifiedNeed": false,
+  "outputLicense": "CC-BY-4.0"
+}

@@ -1,0 +1,32 @@
+{
+  "id": "patient-advocate-research-primer-roles-005",
+  "title": "Partner + reviewer selection criteria & recruitment brief (all TO BE SECURED)",
+  "project": "patient-advocate-research-primer",
+  "type": "research",
+  "lane": "donated",
+  "priority": "high",
+  "domain": ["cancer", "research-literacy", "education", "governance", "patient-advocacy"],
+  "riskTier": "medium",
+  "urgent": false,
+  "deliverable": "document",
+  "tokenEstimate": "small",
+  "status": "open",
+  "context": "No advocacy partner, oncologist reviewer, advocate reviewer, or methodology reviewer is yet secured for this project. All high-tier patient-facing content is blocked on real sign-off from a credentialed oncologist and an experienced patient advocate. M0 commits to publishing concrete selection criteria so recruitment is actionable, not vague. The criteria must define what qualifications each role requires and what their time commitment and compensation expectations might be.",
+  "objective": "Research and publish selection criteria and a recruitment brief for each unfilled role: advocacy partner, credentialed oncologist reviewer, experienced patient-advocate reviewer, methodology reviewer, and licence/provenance steward.",
+  "acceptanceCriteria": [
+    "Selection criteria document covers all five roles: advocacy partner (cancer research), oncologist reviewer (credentialed; oncology competence), patient-advocate reviewer (experienced research advocate), methodology reviewer (biostatistics/epidemiology/clinical-trials competence), and licence/provenance steward.",
+    "For each role: minimum qualifications, scope of responsibility, estimated time commitment per milestone, and COI/recusal expectations are documented.",
+    "Addresses the expert-compensation question (PLAN.md Open Q2): whether a small funded-lane carve-out is appropriate and what the process would be, with a recommendation or options.",
+    "Identifies at least three concrete outreach channels or networks for each high-tier role (e.g. NCI patient advocate programme, ASCO patient advocate programme, cooperative-group advocacy offices for oncologist + advocate roles).",
+    "The brief is written to be shared externally with prospective partners and reviewers.",
+    "Maintainer review sign-off recorded."
+  ],
+  "resources": [
+    "PLAN.md (§ Governance, roles & stakeholders; § Risks & mitigations — 'No advocacy partner secured'; Open Q2 on expert compensation)",
+    "TASKS.md (Milestone M0; lane and requestor conventions)"
+  ],
+  "output": "A recruitment brief and selection criteria document committed to the repo (e.g. governance/roles.md), covering all five unfilled roles with qualifications, responsibilities, time estimates, COI rules, and outreach channels.",
+  "requestor": "TO BE SECURED",
+  "verifiedNeed": false,
+  "outputLicense": "CC-BY-4.0"
+}

@@ -1,0 +1,37 @@
+{
+  "id": "patient-advocate-research-primer-module-102",
+  "title": "Module: clinical-trial phases (I-IV) & what each can/can't show",
+  "project": "patient-advocate-research-primer",
+  "type": "writing",
+  "lane": "donated",
+  "priority": "high",
+  "domain": ["cancer", "research-literacy", "education", "health", "clinical-trials"],
+  "riskTier": "high",
+  "urgent": false,
+  "deliverable": "document",
+  "tokenEstimate": "medium",
+  "status": "open",
+  "context": "A common advocacy error is treating a phase-I 'response rate' or a phase-II safety signal as evidence of clinical benefit. This module teaches patient advocates what each trial phase is designed to establish — dose safety and tolerability (I), preliminary efficacy signals (II), comparative efficacy against standard of care (III), post-market surveillance (IV) — and critically, what each phase cannot prove. This is patient-facing educational content requiring dual high-tier sign-off.",
+  "objective": "Author an original, plain-language educational module on clinical-trial phases I through IV, explaining the purpose, typical design, and the specific questions each phase can and cannot answer, with emphasis on the limits advocates should understand when reading phase-I or phase-II results.",
+  "acceptanceCriteria": [
+    "Covers phases I through IV: purpose, typical design features (dose escalation in I; endpoint types in II; randomisation and comparator in III; post-market safety in IV).",
+    "Explicitly addresses what each phase cannot show: phase I is not an efficacy signal; phase II response rates are not equivalent to phase III survival benefit; phase III results apply to the studied population and may not generalise.",
+    "Addresses basket trials, platform trials, and adaptive designs as increasingly common phase II/III variants — briefly, with plain-language explanation.",
+    "Cites FDA/EMA guidance on clinical-trial phases and authoritative oncology methodology sources; all citations resolve to sources.yaml entries with compatible allowedUse.",
+    "Written in plain language; no unexplained jargon without a glossary anchor.",
+    "Carries a persistent 'education only — not medical advice' notice and passes the advice-language checklist (task 002).",
+    "Passes the licence + provenance build gate and CI.",
+    "Signed off by a credentialed oncologist (recorded in the review ledger): clinical framing is correct and nothing reads as treatment guidance.",
+    "Signed off by an experienced patient advocate (recorded in the review ledger): content is usable and does not stray into advice.",
+    "Signed off by a methodology reviewer: phase descriptions and limitations are methodologically accurate."
+  ],
+  "resources": [
+    "PLAN.md (§ Goals — Goal 1; § Dependencies — FDA/EMA endpoint guidance)",
+    "TASKS.md (Milestone M1)",
+    "https://www.fda.gov/patients/drug-development-process/step-3-clinical-research (FDA clinical-trial phases)"
+  ],
+  "output": "A plain-language educational module (content/modules/trial-phases.md) committed to the repo, covering phases I–IV and their limits, provenance-cited, CI-green, and carrying dual high-tier sign-off plus methodology review.",
+  "requestor": "TO BE SECURED",
+  "verifiedNeed": false,
+  "outputLicense": "CC-BY-4.0"
+}

@@ -1,0 +1,34 @@
+{
+  "id": "patient-advocate-research-primer-policy-002",
+  "title": "Education-only / no-medical-advice policy + refusal & advice-language checklist",
+  "project": "patient-advocate-research-primer",
+  "type": "design-spec",
+  "lane": "donated",
+  "priority": "high",
+  "domain": ["cancer", "research-literacy", "education", "health", "policy", "governance"],
+  "riskTier": "high",
+  "urgent": false,
+  "deliverable": "document",
+  "tokenEstimate": "medium",
+  "status": "open",
+  "context": "Patient-Advocate-Research-Primer is an educational primer for cancer patient advocates, and must never drift into medical advice. This is the most critical guardrail for the project: all patient-facing content is high risk-tier and must carry a persistent 'not medical advice' frame. Before any patient-facing module is authored, a formal policy must define the hard boundary, enumerate prohibited output types, and provide a reusable advice-language checklist that reviewers and a future linter can apply.",
+  "objective": "Define and publish the education-only / no-medical-advice policy, including the hard boundary between teaching how to read research and giving medical advice, an enumeration of prohibited output types, a reusable advice-language checklist, and the dual high-tier sign-off rule for all patient-facing content.",
+  "acceptanceCriteria": [
+    "Defines the hard boundary: the project teaches how to read research in general; it never tells anyone what a finding means for their own or a loved one's cancer (no diagnosis, prognosis, treatment recommendation, trial-enrolment recommendation, or individualised guidance).",
+    "Enumerates prohibited output types: diagnosis, prognosis, treatment or trial recommendation, reassurance about outcomes, and any second-person prescriptive guidance ('you should', 'the best treatment for you').",
+    "Provides an advice-language checklist covering prescriptive second-person forms, superlative treatment claims ('best', 'only', 'proven'), reassurance/false-certainty patterns, and surrogate-as-cure framing — suitable for use by human reviewers and as the basis for a future linter.",
+    "Mandates the persistent 'not medical advice / education only' frame on all patient-facing content.",
+    "Mandates dual high-tier sign-off (credentialed oncologist + experienced patient advocate) for all patient-facing content before publication, with sign-offs recorded in the review ledger.",
+    "Specifies the role of the education-only assertion linter (task 004 follow-on) and how the checklist feeds it.",
+    "Is signed off by a credentialed oncologist (recorded in the review ledger).",
+    "Is signed off by an experienced patient advocate (recorded in the review ledger)."
+  ],
+  "resources": [
+    "PLAN.md (§ Goals and non-goals; § Data, licensing & compliance; § Quality, review & risk gates)",
+    "TASKS.md (Milestone M0 acceptance criteria for policy-002)"
+  ],
+  "output": "A policy document (committed to the repo) defining the education-only boundary, prohibited output enumeration, advice-language checklist, 'not medical advice' framing mandate, and dual high-tier sign-off rule — the authoritative reference for all content authors and reviewers.",
+  "requestor": "TO BE SECURED",
+  "verifiedNeed": false,
+  "outputLicense": "CC-BY-4.0"
+}

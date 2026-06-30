@@ -1,0 +1,37 @@
+{
+  "id": "patient-advocate-research-primer-worksheet-007",
+  "title": "Original RCT critical-appraisal worksheet (CC-BY, not derived from CASP/JBI)",
+  "project": "patient-advocate-research-primer",
+  "type": "writing",
+  "lane": "donated",
+  "priority": "high",
+  "domain": ["cancer", "research-literacy", "education", "health", "appraisal", "rct"],
+  "riskTier": "high",
+  "urgent": false,
+  "deliverable": "document",
+  "tokenEstimate": "medium",
+  "status": "open",
+  "context": "CASP, JBI, SIGN, and AMSTAR appraisal checklists are under non-commercial or share-alike licences incompatible with the project's CC-BY-4.0 output. The project must author original worksheets from methodological first principles, citing established frameworks (EQUATOR/Cochrane/GRADE) as provenance for concepts without reproducing their copyrighted expression. The RCT worksheet is the first, anchoring the M0 slice, and will be used in the annotated walkthrough (task 008).",
+  "objective": "Author an original, CC-BY-licensed RCT critical-appraisal worksheet from first principles — covering randomisation, allocation concealment, blinding, endpoints, effect size, attrition, and COI/funding — without copying or adapting any non-commercial or share-alike checklist.",
+  "acceptanceCriteria": [
+    "Authored entirely from methodological first principles; cites EQUATOR/CONSORT, Cochrane Handbook, and GRADE as provenance anchors for concepts but copies no third-party checklist text or structure; passes the licence gate clean.",
+    "Covers all key appraisal domains: randomisation method and adequacy, allocation concealment, blinding (who and how), primary and secondary endpoints, effect size and precision (including how to read a hazard ratio and confidence interval), attrition and ITT analysis, conflict of interest and funding disclosure.",
+    "Written in plain language for a lay audience; questions are framed to guide appraisal, not to render verdicts on specific studies.",
+    "Printable and usable offline; format is clean Markdown renderable to PDF.",
+    "Carries a persistent 'education only — not medical advice' notice.",
+    "Every methodological concept cited to a sources.yaml entry with compatible allowedUse; passes the licence + provenance build gate (task 004).",
+    "Signed off by a credentialed oncologist (recorded in the review ledger): clinical framing is correct and nothing reads as treatment guidance.",
+    "Signed off by an experienced patient advocate (recorded in the review ledger): worksheet is usable, plain-language, and does not stray into advice.",
+    "Signed off by a methodology reviewer: randomisation, blinding, effect-size, and attrition questions are methodologically accurate."
+  ],
+  "resources": [
+    "PLAN.md (§ Scope — original critical-appraisal worksheets; § Data, licensing & compliance — CASP/JBI licence incompatibility)",
+    "TASKS.md (M0 acceptance criteria for worksheet-007)",
+    "https://www.equator-network.org/reporting-guidelines/consort/ (CONSORT — cited as methodological authority, not reproduced)",
+    "https://training.cochrane.org/handbook (Cochrane Handbook — authority for randomisation/blinding concepts)"
+  ],
+  "output": "An original RCT critical-appraisal worksheet (content/worksheets/rct-appraisal.md) committed under CC-BY-4.0, covering all key appraisal domains, provenance-cited, CI-green, and carrying dual high-tier sign-off plus methodology review.",
+  "requestor": "TO BE SECURED",
+  "verifiedNeed": false,
+  "outputLicense": "CC-BY-4.0"
+}
